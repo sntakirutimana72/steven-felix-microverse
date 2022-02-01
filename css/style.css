@@ -1,0 +1,38 @@
+
+* {
+    color: rgb(25.5, 25.5, 76.5);
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 0;
+    background-color: lightgrey;
+}
+
+#main {
+    padding: 10px 30px;
+}
+
+#main > div {
+    margin-bottom: 10px;
+}
+
+#image-caption {
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-weight: bolder;
+    padding: 10px 0;
+    font-size: 25px;
+}
